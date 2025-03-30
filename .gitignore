@@ -1,0 +1,25 @@
+# Node modules  
+node_modules/  
+npm-debug.log*  
+yarn.lock  
+pnpm-lock.yaml  
+package-lock.json  
+
+# Build output  
+dist/  
+*.tsbuildinfo  
+
+# Logs  
+logs  
+*.log  
+yarn-error.log  
+
+# Editor files  
+.vscode/  
+.idea/  
+*.swp  
+*.swo  
+.DS_Store  
+
+# Git metadata (optional)  
+.git/  

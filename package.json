@@ -1,0 +1,32 @@
+{
+  "name": "wpilog",
+  "version": "0.0.1",
+  "description": "A JavaScript wrapper for parsing the WPILib Data Log file format",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.cjs"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samdev-7/wpilog.git"
+  },
+  "keywords": [
+    "wpilib",
+    "logging"
+  ],
+  "author": "samdev-7",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samdev-7/wpilog/issues"
+  },
+  "homepage": "https://github.com/samdev-7/wpilog#readme",
+  "dependencies": {
+    "typescript": "^5.8.2"
+  }
+}
